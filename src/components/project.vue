@@ -1,7 +1,6 @@
 <template>
   <div>
     <v-container class=" pa-5">
-     
       <v-layout row wrap>
         <v-flex xs12 sm6 md6>
           <v-carousel hide-delimiter-background :cycle="2" class=" shadow">
@@ -9,7 +8,6 @@
               v-for="img in project.images"
               :key="img.id"
               :src="img.i"
-           
             ></v-carousel-item>
           </v-carousel>
         </v-flex>
@@ -62,18 +60,9 @@
         </v-flex>
       </v-layout>
     </v-container>
-     <v-btn
-        fab 
-        bottom
-        right
-        fixed
-        dark
-        small
-      color="pink"
-        to="/projects"
-      >
-        <v-icon>mdi-close</v-icon>
-      </v-btn>
+    <v-btn fab bottom right fixed dark small color="pink" to="/arukenya-projects">
+      <v-icon>mdi-close</v-icon>
+    </v-btn>
   </div>
 </template>
 
@@ -124,12 +113,12 @@ export default {
       ]
     };
   },
-// beforeRouteEnter (to, from, next) {
+  // beforeRouteEnter (to, from, next) {
 
-//       next(this.$router.go() )
-//   },
+  //       next(this.$router.go() )
+  //   },
   computed: {
-    project() {     
+    project() {
       return this.projects.find(project => {
         return project.id == this.id;
       });
@@ -160,5 +149,4 @@ export default {
   border-radius: 6px;
   padding: 8px;
 }
-
 </style>

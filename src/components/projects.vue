@@ -5,17 +5,17 @@
         <!-- <img src="../assets/nobg2.jpg" alt="alt" height="200" /> -->
         <h1
           class="pink--text mb-2 text-center head  wow fadeInUp "
-          data-wow-duration="0.5s"
-          data-wow-delay="0.5s"
+          data-wow-duration="0.3s"
+          data-wow-delay="0.3s"
         >
           PROJECTS
         </h1>
         <div
           class="sub mb-3 text-center text-capitalize pink--text lighten-4 wow fadeInUp "
-          data-wow-duration="0.5s"
-          data-wow-delay="0.5s"
+          data-wow-duration="0.3s"
+          data-wow-delay="0.4s"
         >
-          have a look at our style and design projects
+          have a look at how Arukenya styles and designs
         </div>
       </v-layout>
     </div>
@@ -29,19 +29,14 @@
       </p>
 
       <v-layout row wrap>
-        <v-flex
-          xs12
-          sm6
-          md6
-          v-for="project in projects"
-          :key="project.id"
-          class="wow fadeInUp "
-          data-wow-duration="1.2s"
-          data-wow-delay="s"
-        >
+        <v-flex xs12 sm6 md6 v-for="project in projects" :key="project.id">
           <v-card class="ma-3 shadow " :to="'/project/' + project.id">
             <div class="inner">
-              <v-img :src="project.img" class="img"></v-img>
+              <v-img
+                :src="project.img"
+                class="img"
+                :alt="project.poweredby"
+              ></v-img>
             </div>
           </v-card>
         </v-flex>

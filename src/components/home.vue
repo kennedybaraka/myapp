@@ -3,27 +3,21 @@
     <div class="paralax">
       <v-layout column align-center justify-center class="top">
         <!-- <img src="../assets/about.svg" alt="alt" height="200" /> -->
-        <h1
+        <div
           class="pink--text mb-2 text-center head wow fadeInUp "
-          data-wow-duration="0.5s"
-          data-wow-delay="0.5s"
+          data-wow-duration="0.3s"
+          data-wow-delay="0.3s"
         >
           ARU
-        </h1>
-        <div
-          class="sub mb-3 text-center text-capitalize pink--text lighten-4 wow fadeInUp "
-          data-wow-duration="0.5s"
-          data-wow-delay="0.5s"
-        >
-          the house of aru a home to fashion
         </div>
-        <v-btn
-          class="pink  mt-5 wow lightSpeed"
-          data-wow-duration="0.5s"
+        <h1
+          class="sub mb-3 text-center text-capitalize pink--text lighten-4 wow fadeInUp "
+          data-wow-duration="0.3s"
           data-wow-delay="0.5s"
-          dark
-          to="/projects"
         >
+          arukenya a home to fashion
+        </h1>
+        <v-btn class="pink  mt-5  " dark to="/arukenya-projects">
           <span left>see what we do</span>
           <v-icon class="px-3" right small>mdi-arrow-right</v-icon>
         </v-btn>
@@ -31,7 +25,7 @@
     </div>
     <br />
     <v-container class="py-5 my-5">
-      <h3 class="head1 text-center topic">About Us</h3>
+      <h3 class="head1 text-center topic">About Arukenya</h3>
       <p class="sub1 text-center pink--text  text-capitalize">
         this is all about us?
       </p>
@@ -39,8 +33,8 @@
         <v-flex xs12 sm3 md3 class="mt-5">
           <v-card
             class="pa-2 ma-3 shadow wow fadeInUp "
-            data-wow-duration="0.5s"
-            data-wow-delay="0.6s"
+            data-wow-duration="0.7s"
+            data-wow-delay="0.5s"
           >
             <v-subheader class="pink--text topic">VISSION</v-subheader>
             <div class="px-3 pb-3 text">
@@ -51,20 +45,20 @@
         <v-flex xs12 sm6 md6>
           <v-card
             class="pa-2 ma-3 shadow wow fadeInUp "
-            data-wow-duration="0.5s"
-            data-wow-delay="0.7s"
+            data-wow-duration="0.8s"
+            data-wow-delay="0.5s"
           >
             <v-subheader class="pink--text topic">ABOUT</v-subheader>
             <div class="px-3 pb-3 text">
               House of Aru is a style and design patnership that came together
               courtesy of two best friends Molly Ajando Keya and Ruchale Milka
-              Wameyo, who are great lovers of fashion. Aru in inspired by the
-              diffrent kinds of people who are obsessed with looking good and
-              feeling good with themselves. It`s all about facing inner fears
-              and addressing insecurities,stepping out of the shell and showing
-              off the fashion game to anyone. It`s for the ones who want to wear
-              whatever they like and still look amazing,it`s here to extend
-              confidence levels for all ages and to showcase fashion in a
+              Wameyo, who are great lovers of fashion. Arukenya in inspired by
+              the diffrent kinds of people who are obsessed with looking good
+              and feeling good with themselves. It`s all about facing inner
+              fears and addressing insecurities,stepping out of the shell and
+              showing off the fashion game to anyone. It`s for the ones who want
+              to wear whatever they like and still look amazing,it`s here to
+              extend confidence levels for all ages and to showcase fashion in a
               beautiful way.
             </div>
           </v-card>
@@ -72,8 +66,8 @@
         <v-flex xs12 sm3 md3 class="mt-5">
           <v-card
             class="pa-2 ma-3 shadow wow fadeInUp "
-            data-wow-duration="0.5s"
-            data-wow-delay="0.8s"
+            data-wow-duration="0.9s"
+            data-wow-delay="0.5s"
           >
             <v-subheader class="pink--text topic">MISSION</v-subheader>
             <div class="px-3 pb-3 text">
@@ -97,33 +91,33 @@
           <v-flex xs12 sm3 md3 class="mt-5">
             <v-card
               class="pa-2 ma-3 shadow wow fadeInUp "
-              data-wow-duration="0.7s"
-              data-wow-delay="0.8s"
+              data-wow-duration="0.5s"
+              data-wow-delay="0.5s"
             >
               <div class="inner">
-                <v-img src="../assets/us3.jpg" class="img"></v-img>
+                <v-img src="../assets/us3.jpg" class="img" alt="co-founders of arukenya"></v-img>
               </div>
             </v-card>
           </v-flex>
           <v-flex xs12 sm4 md4>
             <v-card
               class="pa-2 ma-3 shadow wow fadeInUp "
-              data-wow-duration="0.9s"
-              data-wow-delay="1s"
+              data-wow-duration="0.6s"
+              data-wow-delay="0.5s"
             >
               <div class="inner">
-                <v-img src="../assets/us2.jpg" class="img"></v-img>
+                <v-img src="../assets/us2.jpg" class="img" alt="us"></v-img>
               </div>
             </v-card>
           </v-flex>
           <v-flex xs12 sm3 md3 class="mt-5">
             <v-card
               class="pa-2 ma-3 shadow wow fadeInUp "
-              data-wow-duration="1.1s"
-              data-wow-delay="1.2s"
+              data-wow-duration="0.7s"
+              data-wow-delay="0.5s"
             >
               <div class="inner">
-                <v-img src="../assets/us1.jpg" class="img"></v-img>
+                <v-img src="../assets/us1.jpg" class="img" alt="us"></v-img>
               </div>
             </v-card>
           </v-flex>
@@ -176,7 +170,7 @@
                   </v-container>
                 </v-flex>
                 <v-flex xs12 sm6 md6 class="pa-3">
-                  <v-img src="../assets/us4.jpg" class="fluid"></v-img>
+                  <v-img src="../assets/us4.jpg" class="fluid  " alt="ruchale"></v-img>
                 </v-flex>
               </v-layout>
             </v-card>
@@ -189,7 +183,7 @@
             >
               <v-layout row wrap>
                 <v-flex xs12 sm6 md6 class="pa-3">
-                  <v-img src="../assets/us6.jpg" class="fluid"></v-img>
+                  <v-img src="../assets/us8.jpg" class="fluid " alt="molly ajando"></v-img>
                 </v-flex>
                 <v-flex xs12 sm6 md6 class="pa-3">
                   <v-container fill-height>
@@ -269,7 +263,7 @@ export default {
           icon: "mdi-whatsapp",
           link: "https://wa.me/254732894414",
           color: "success",
-          name: "Ruchael"
+          name: "Ruchale"
         },
         {
           icon: "mdi-facebook",
@@ -302,6 +296,7 @@ export default {
 </script>
 
 <style scoped>
+
 .color {
   background-color: rgb(247, 203, 203);
 }
@@ -311,10 +306,12 @@ export default {
   max-height: auto;
   border-radius: 5px;
 }
+
 .topic {
   font-family: "Lobster", cursive;
   letter-spacing: 2px;
 }
+
 .px {
   background-image: url("../assets/dark.jpg");
   height: 300px;

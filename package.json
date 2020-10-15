@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && gh-pages -d dist",
+    "build": "vue-cli-service build ",
+    "git":"&& gh-pages -d dist",
     "lint": "vue-cli-service lint"
   },
   "homepage": "https://github.com/kennedybaraka/myapp",

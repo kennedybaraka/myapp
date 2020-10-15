@@ -31,7 +31,7 @@
           </center>
           <!-- <hr class="mt-3 black"> -->
           <div class="white--text text-center pt-4">
-            aru &copy; {{ new Date().getFullYear() }}
+            arukenya &copy; {{ new Date().getFullYear() }}
           </div>
         </v-flex>
       </v-layout>

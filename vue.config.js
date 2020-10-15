@@ -1,4 +1,4 @@
 module.exports = {
-  transpileDependencies: ["vuetify"],
-  publicPath: "/myappt/"
+  transpileDependencies: ["vuetify"]
+  // publicPath: "/myapp/"
 };

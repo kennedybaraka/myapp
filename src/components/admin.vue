@@ -28,7 +28,7 @@
               {{ email.date | date }}
             </div>
             <div class="float">
-              <v-btn flat icon color="error" @click="deleteemail(email)">
+              <v-btn icon color="error" @click="deleteemail(email)">
                 <v-icon>mdi-delete-outline</v-icon>
               </v-btn>
             </div>
@@ -40,8 +40,21 @@
 </template>
 
 <script>
-import firebase from "../database/firebase";
-const db = firebase.firestore();
+import firebase from "firebase/app";
+import "firebase/firestore";
+
+var config = {
+  apiKey: "AIzaSyDxEvg0HrI7DGYaqhEwWQflrmMuCPKJal4",
+  authDomain: "aru-1234.firebaseapp.com",
+  databaseURL: "https://aru-1234.firebaseio.com",
+  projectId: "aru-1234",
+  storageBucket: "aru-1234.appspot.com",
+  messagingSenderId: "824983978258",
+  appId: "1:824983978258:web:556151dc07e0639b7bb3cb",
+  measurementId: "G-Z6KZ304RE9"
+};
+
+const db = firebase.initializeApp(config).firestore();
 export default {
   data() {
     return {
